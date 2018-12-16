@@ -27,6 +27,6 @@ new Client({
 	console: { useColor: true, utc: true },
 	pieceDefaults: { commands: { deletable: true, promptLimit: 5, quotedStringSupport: true } },
 	prefix: 'M',
-	presence: { activity: { name: 'Sneyra, help', type: 'LISTENING' } },
+	presence: { activity: { name: 'من آلذي يتقرب منك من آجل مصلحته آسوأ من عدوك', type: 'LISTENING' } },
 	regexPrefix: /^(hey )?sneyra(,|!)/i
 }).login(config.token);
