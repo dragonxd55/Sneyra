@@ -5,7 +5,7 @@ module.exports = class extends MusicCommand {
 	constructor(...args) {
 		super(...args, {
 			// Disabled until Krypton lands stable
-			enabled: false,
+			enabled: true,
 			aliases: ['vol'],
 			usage: '[control:string]',
 			description: 'Manage the volume for current song.',
